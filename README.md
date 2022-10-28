@@ -4,6 +4,13 @@
 
 Features, usage and installation instructions are [summarised on the homepage](https://brew.sh). Terminology (e.g. the difference between a Cellar, Tap, Cask and so forth) is [explained here](https://docs.brew.sh/Formula-Cookbook#homebrew-terminology).
 
+## What is Homebrew?
+
+Homebrew installs the stuff you need that Apple (or your Linux system) didn’t.
+Homebrew installs packages to their own directory and then symlinks their files into /usr/local (on macOS Intel).
+Homebrew complements macOS (or your Linux system). Install your RubyGems with gem and their dependencies with brew.
+Commands and More informatin available at https://brew.sh
+
 ## What Packages Are Available?
 
 1. Type `brew formulae` for a list.
